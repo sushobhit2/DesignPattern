@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace PatientSearch
 {
@@ -6,7 +6,11 @@ namespace PatientSearch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var patientSearchFilters = new CompositeFilter();
+            patientSearchFilters.Add(new MRNData());
+            patientSearchFilters.Add(new NameData());
+            var patientDataProvider = new PatientDataProvider();
+            var patientList = patientDataProvider.GetPatientDetails(patientSearchFilters);
         }
     }
 }
