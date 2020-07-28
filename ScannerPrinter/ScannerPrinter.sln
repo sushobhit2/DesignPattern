@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScannerPrinter", "ScannerPrinter.csproj", "{0ACDBDC1-BA83-41BD-A58E-067DD5B7ABB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACDBDC1-BA83-41BD-A58E-067DD5B7ABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACDBDC1-BA83-41BD-A58E-067DD5B7ABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACDBDC1-BA83-41BD-A58E-067DD5B7ABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACDBDC1-BA83-41BD-A58E-067DD5B7ABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA133E6A-C82E-4247-BAD1-7627195FD826}
+	EndGlobalSection
+EndGlobal
